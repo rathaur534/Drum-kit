@@ -60,6 +60,6 @@ for (let i = 0; i < len; i++) {
         activebutton.classList.toggle("pressed");
         setTimeout(function() {
             activebutton.classList.remove("pressed");
-        }, 100);
+        }, 50);
     }
 }
